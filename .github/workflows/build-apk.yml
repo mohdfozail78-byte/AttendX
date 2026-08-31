@@ -14,7 +14,7 @@ jobs:
       - name: Extract AttendX Flutter project
         run: |
           mkdir attendx_project
-          unzip -q AttendX_GitHub_Flutter_MVP.zip -d attendx_project
+          unzip -q AttendX_GitHub_Flutter_MVP_FIXED.zip -d attendx_project
 
       - name: Setup Flutter
         uses: subosito/flutter-action@v2
